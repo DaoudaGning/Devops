@@ -22,5 +22,19 @@ pipeline {
                 }
             }
         }
+        stage('Deploiement du service') {
+            steps {
+                script {
+                    sh 'kubectl apply -f manifests/service.yaml'
+                }
+            }
+        }
+        stage('Deploiement de l\'application') {
+            steps {
+                script {
+                    sh 'kubectl apply -f manifests/deployment.yaml'
+                }
+            }
+        }
     }
 }
