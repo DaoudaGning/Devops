@@ -1,0 +1,3 @@
+Voici l'ensemble des commandes sur lesquelles vous devez travailler et me faire une démonstration de 7min maximum et par groupe de 2 personnes
+
+git init, git status, git add, git commit, git log, git diff, git config, git help, git rm, git mv
